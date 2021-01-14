@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
-
+import javax.swing.JFrame;
 public class XandO{
 
 	char[][] grid = {{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};
@@ -90,7 +90,9 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
+						//System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
 						this.restart();
 					}
 					break;
@@ -103,7 +105,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -116,7 +119,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -129,7 +133,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -142,7 +147,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -155,7 +161,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -168,7 +175,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -181,7 +189,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
@@ -194,7 +203,8 @@ public class XandO{
 						this.play();
 					}
 					if(this.checkForWin() == true){
-						System.out.println("**********\n"+player.getName() + " wins!\n\n**********");
+						JFrame frame = new JFrame();
+						JOptionPane.showMessageDialog(frame, player.getName() + " wins!");
 						this.restart();
 					}
 					break;
